@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Settings>
+  <Email>
+    <smtpserver>smtpserver1.domain.com</smtpserver>
+    <from>FromAddress@domain.com</from>
+    <Alert1>
+      <to>JohnSmithrecipient@domain.com</to>
+    </Alert1>
+  </Email>
+  <Thresholds>
+    <ADMA>
+      <Import>
+        <Add>50</Add>
+        <Delete>40</Delete>
+        <Update>150</Update>
+      </Import>
+    </ADMA>
+    <B2BGraphMA>
+      <Export>
+        <Add>50</Add>
+        <Delete>40</Delete>
+        <Update>150</Update>
+      </Export>
+    </B2BGraphMA>
+  </Thresholds>
+</Settings>
